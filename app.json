@@ -17,8 +17,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "build": {
+      "babel": {
+        "include": [
+          "@ui-kitten/components"
+        ]
+      }
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emresimsek.be-social"
     },
     "android": {
       "adaptiveIcon": {
